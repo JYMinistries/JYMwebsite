@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    background-color: #0a0856;
+    text-decoration: none;
+}
+.sec {
+    display: flex;
+    width: 100%;
+}
+.sec .logo {
+    padding-top: 3vw;
+    justify-content: left;
+    align-items: center;
+}
+.sec .logo img {
+    width: 70vw;
+    border: 0px solid red;
+    border-radius: 50%;
+    margin-top: 10vw;
+}
+/*-----for inqiury-----*/
+.form {
+    margin-top: 10vw;
+    margin-left: 30vw;
+    margin-bottom: 10vw;
+    border: 3px solid aqua;
+    width: 40vw;
+    height: 55vw;
+    backdrop-filter: blur(100%);
+}
+h1{
+    color: black;
+    margin-bottom: 6vw;
+    margin-top: -0.05vw;
+}
+label {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 3vw;
+}
+input {
+    border: 2px solid aqua;
+    border-radius: 10px;
+    font-size: 2.4vw;
+}
+.firstnamel{
+    display: flex;
+    margin-top: -28px;
+}
+.firstnamet{
+    margin-left: 5vw;
+}
+.seccondnamet{
+    margin-left: 5vw;
+}
+.contactt{
+    margin-left: 5vw;
+}
+.emailt{
+    margin-left: 5vw;
+}
+.messaget{
+    margin-left: 5vw;
+}
+textarea{
+    width: 30vw;
+    height: 5vw;
+    outline: 2px solid blue;
+    border: 2px solid aqua ;
+    border-radius: 30px;
+    background-color: ;
+    font-size: 2vw;
+    padding: 2vw 2vw;
+    resize: none;
+    margin-left: 5vw;
+}
+button{
+    border: 3px solid rgb(68, 255, 0);
+    border-radius: 30px;
+    width: 18vw;
+    font-size: 5vw;
+    justify-content: center;
+    margin-left: 10vw;
+    background-color: aquamarine;
+    color: blueviolet;
+    transition: 1s;
+}
+button:hover{
+    outline: 2px solid aqua;
+    background-color: blueviolet;
+    color: bisque;
+}
+/*------for inquiry----*/
+.word{
+    margin-left: -4vw;
+}
+.word a{
+    border: 1vw solid magenta;
+    text-decoration: none;
+    color: white;
+    background-color: aqua;
+    border-radius: 50px;
+    outline: 1vw solid rgb(0, 47, 255);
+    padding: 0px 15px;
+    transition: 3s;
+}
+.word a:hover {
+    background-color: rgb(56, 242, 10);
+    color: rgb(0, 173, 241);
+}
+.nav{
+    margin-top: 10vw;
+}
+.jym {
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    margin-bottom: -5vw;
+    font-weight: 900;
+}
+.hom {
+    font-size: 5vw;
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+    margin-left: -10vw;
+    font-weight: bolder;
+}
+.media {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 0vw;
+    font-weight: bolder;
+}
+.about {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 0vw;
+    font-weight: bolder;
+}
+.contact {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: -10vw;
+    font-weight: bolder;
+}
+.soc {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 5vw;
+    margin-left: -15vw;
+    margin-top: 4vw;
+}
+.soc .face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: rgb(0, 38, 255);
+    margin-left: 10px;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+    outline: 2px solid salmon;
+
+}
+.soc .face :hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+.registration{
+    background: linear-gradient(70deg ,blue 10%,white 50% ,rgb(204, 255, 0) 80%);
+    border: 2px solid aqua;
+    backdrop-filter: blur(90px);
+    margin-top: 3vw;
+    height: 100%;
+    margin-bottom: 0vw;
+}
+.reg12{
+    margin-top: 5vw;
+    margin-bottom: 20vw;
+}
+.apk1 {
+    margin-top: -15vw;
+}
+.apk1 label {
+    margin-top: -48vw;
+}
+.apk1 img {
+    margin-top: -42vw;
+}
+.apk1 a{
+    margin-top: -40vw;
+}
+.registra{
+    justify-content: center;
+    border: 0px solid aqua;
+    width: 60vw;
+}
+.registra input{
+    margin-left: 1vw;
+    width: 55vw;
+}
+.registra button{
+    display: flex;
+    margin-left: 21vw;
+}
+.lower{
+    height: 30vh;
+    background-color: black;
+}
+.log2 {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    width: 40vw;
+    margin-top: -35vw;
+    margin-left: 55vw;
+}
+.apk{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    width: 40vw;
+    margin-top: -40vw;
+    margin-left: 65vw;
+    color: blueviolet;
+    font-size: 4VW;
+}
+.DOWN{
+    position: absolute;
+    margin-left: 62VW;
+    font-size: 3VW;
+    width: 30VW;
+    margin-top: -10vw;
+}
+/*------lower navbar------*/
+
+.lower1{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    border: 1vw solid aqua;
+    padding-right: 1vw;
+}
+.worddown1{
+    margin-left: 10vw;
+    margin-top: 1vw;
+    margin-bottom: -1vw;
+    height: inherit;
+
+}
+.worddown1 div{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.worddown1 a{
+    text-decoration: none;
+    color: aqua;
+    background-color: blueviolet;
+    border: 0.5vw solid aqua;
+    border-radius: 10vw;
+    padding: 0vw 2vw;
+    font-size: 3vw;
+    outline: 0.5vw solid chocolate;
+    transition: 3s;
+}
+.worddown1 a:hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+
+.hom1{
+    margin-left: -5vw;
+}
+.media2{
+    margin-left: 1vw;
+}
+.about3{
+    margin-left: 6vw;
+}
+.contact4{
+    margin-left:12vw;
+}
+.navmiddle1{
+    margin-top:10vw;
+    display: flex;
+    margin-left: -40vw;
+}
+.navmiddle1 img{
+    display: flex;
+    position: absolute;
+    margin-left: 43vw;
+    margin-top: -17vw;
+    width: 14vw;
+    height: 14vw;
+    border: 5px solid aqua;
+    border-radius: 100%;
+
+}
+.navmiddle1 img:hover{
+    color: rgb(0, 119, 255);
+    outline: 4px solid mediumseagreen;
+}
+.soc1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 5vw;
+    width: inherit;
+    height: inherit;
+    margin-left: 40vw;
+    margin-top: 2vw;
+}
+
+.soc1 .face2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: rgb(0, 38, 255);
+    margin-left: 1vw;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+    outline: 2px solid salmon;
+
+}
+.soc1 .face2 :hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+.last1{
+    margin-left: 8vw;
+    margin-top: 1vw;
+}
+.last1 .a1{
+    font-size: 4vw;
+    color: aqua;
+    margin-left: -5vw;
+
+}
+.last1 .a2{
+    font-size: 4vw;
+    color: aqua;
+    margin-left: -4vw;
+}
+.last1 .a3{
+    font-size: 3vw;
+    color: aqua;
+    margin-left: -2vw;
+}
+.last1 .a4{
+    width: 19vw;
+    font-size: 3vw;
+    color: aqua;
+}
+
+.sent{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -150vw;
+    margin-left: -75vw;
+    width: 60vw;
+    height: 70vw;
+    background-color: aqua;
+    border: 1vw SOLID blue;
+    border-radius: 3vw;
+}
+.sent{
+    visibility: hidden;
+}
+.open-popup{
+    visibility: visible;
+}
+
+.sent img{
+    width: 35vw;
+    border-radius: 20vw;
+    margin-top: -70vw;
+}
+.sent h3{
+    color: chocolate;
+    font-size: 10vw;
+    margin-top: 1vw;
+}
+.sent p{
+    font-size: 6vw;
+    margin-top: 1vw;
+
+}
+.sent button{
+    margin-left: 1vw;
+    margin-top: 4vw;
+} 
+
+.register{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -70vw;
+    margin-left: -63vw;
+    width: 60vw;
+    height: 70vw;
+    background-color: aqua;
+    border: 1vw SOLID blue;
+    border-radius: 3vw;
+}
+.register{
+    visibility: hidden;
+}
+.open-popup1{
+    visibility: visible;
+}
+.register img{
+    width: 35vw;
+    border-radius: 20vw;
+    margin-top: -10vw;
+}
+.register h3{
+    color: chocolate;
+    font-size: 10vw;
+    margin-top: 1vw;
+}
+.register p{
+    font-size: 6vw;
+    margin-top: 1vw;
+}
+.register button{
+    margin-left: 1vw;
+    margin-top: 4vw;
+}

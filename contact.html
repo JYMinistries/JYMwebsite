@@ -14,15 +14,15 @@
             <form class="form" id="form1" action="#" onsubmit="sendEmail()">
                 <label><h1>For inquiry</h1></label>
                 <label class="firstnamel">first name</label>
-                <div class="firstnamet"><input type="text" id="firstname"></div>
+                <div class="firstnamet"><input type="text" id="firstname" required></div>
                 <label class="secondnamel">second name</label>
-                <div class="seccondnamet"><input type="text" id="secondname"></div>
+                <div class="seccondnamet"><input type="text" id="secondname" required></div>
                 <label class="contactl">contact</label>
-                <div class="contactt"><input type="text" id="contact"></div>
+                <div class="contactt"><input type="text" id="contact" required></div>
                 <label class="emaill">email</label>
-                <div class="emailt"><input type="email" id="email"></div>
+                <div class="emailt"><input type="email" id="email" required></div>
                 <label class="messagel">message</label>
-                <textarea cols="30px" rows="30px" id="textarea"></textarea>
+                <textarea cols="30px" rows="30px" id="textarea" required></textarea>
                 <button type="submit">send</button>
             </form>
         </div>
@@ -49,7 +49,7 @@
                 <label>CONTACT</label>
                 <input type="text" placeholder="" name="data[CONTACT]" required>
                 <label>EMAIL</label>
-                <input type="text" placeholder="" name="data[EMAIL]" required>
+                <input type="email" placeholder="" name="data[EMAIL]" required>
                 <label>CHURCH</label>
                 <input type="text" placeholder="" name="data[CHURCH]" required>
                 <label>LOCATION</label>
